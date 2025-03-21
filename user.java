@@ -25,4 +25,9 @@ class Main { // Class name should start with uppercase (Java convention)
             // Close Scanner to prevent resource leak
         } // Prompt user for input
     }
+
+    @Override
+    public String toString() {
+        return "Main []";
+    }
 }

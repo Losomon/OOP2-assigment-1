@@ -17,4 +17,9 @@ class Main{
         double discount = get_discount(amountSpend);
         System.out.println("The discount is: " + discount);
     }
+
+    @Override
+    public String toString() {
+        return "Main []";
+    }
 }
